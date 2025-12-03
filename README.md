@@ -1,18 +1,20 @@
-- *CleanStart Container for Java**
+# CleanStart Container for Java
 
 Official Java container image optimized for enterprise environments. Includes the complete Java Development Kit (JDK) and Java Runtime Environment (JRE) for Java application development and deployment. Features security-hardened base image, minimal attack surface, and FIPS-compliant cryptographic modules. Supports both production deployments and development workflows with separate tagged versions. Includes Java runtime, development tools, and essential Java libraries.
 
-- *Key Features**
+## Key Features
+
 - Complete Java development environment with JDK and JRE capabilities
 - Optimized for cloud-native and microservices architectures
 
-- *Common Use Cases**
+## Common Use Cases
+
 - Building and deploying Java applications
 - Cloud-native Java development
 
-- *Pull Commands**
-Download the runtime container images
+## Pull Commands
 
+Download the runtime container images
 ```bash
 docker pull cleanstart/jdk:latest
 ```
@@ -20,28 +22,29 @@ docker pull cleanstart/jdk:latest
 docker pull cleanstart/jdk:latest-dev
 ```
 
-- *Interactive Development**
-Start interactive session for development
+## Interactive Development
 
+Start interactive session for development
 ```bash
 docker run --rm -it --entrypoint /bin/sh cleanstart/jdk:latest-dev
 ```
 
-- *Container Start**
+## Container Start
+
 Start the container
 ```bash
 docker run --rm -it --name java-dev cleanstart/jdk:latest
 ```
 
-- *Best Practices**
+## Best Practices
+
 - Use specific image tags for production (avoid latest)
 - Configure resource limits: memory and CPU constraints
 - Enable read-only root filesystem when possible
 
-- *Architecture Support**
+## Architecture Support
 
-- *Multi-Platform Images**
-
+### Multi-Platform Images
 ```bash
 docker pull --platform linux/amd64 cleanstart/jdk:latest
 ```
@@ -49,9 +52,7 @@ docker pull --platform linux/amd64 cleanstart/jdk:latest
 docker pull --platform linux/arm64 cleanstart/jdk:latest
 ```
 
-- *
-
-###
+---
 
 ## Resources
 
