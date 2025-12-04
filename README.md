@@ -16,24 +16,24 @@ Official Java container image optimized for enterprise environments. Includes th
 
 Download the runtime container images
 ```bash
-docker pull cleanstart/jdk:latest
+docker pull ghcr.io/cleanstart-containers/jdk:latest
 ```
 ```bash
-docker pull cleanstart/jdk:latest-dev
+docker pull ghcr.io/cleanstart-containers/jdk:latest-dev
 ```
 
 ## Interactive Development
 
 Start interactive session for development
 ```bash
-docker run --rm -it --entrypoint /bin/sh cleanstart/jdk:latest-dev
+docker run --rm -it --entrypoint /bin/sh ghcr.io/cleanstart-containers/jdk:latest-dev
 ```
 
 ## Container Start
 
 Start the container
 ```bash
-docker run --rm -it --name java-dev cleanstart/jdk:latest
+docker run --rm -it --name java-dev ghcr.io/cleanstart-containers/jdk:latest
 ```
 
 ## Best Practices
@@ -46,10 +46,10 @@ docker run --rm -it --name java-dev cleanstart/jdk:latest
 
 ### Multi-Platform Images
 ```bash
-docker pull --platform linux/amd64 cleanstart/jdk:latest
+docker pull --platform linux/amd64 ghcr.io/cleanstart-containers/jdk:latest
 ```
 ```bash
-docker pull --platform linux/arm64 cleanstart/jdk:latest
+docker pull --platform linux/arm64 ghcr.io/cleanstart-containers/jdk:latest
 ```
 
 ---
