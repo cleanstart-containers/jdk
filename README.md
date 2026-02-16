@@ -59,7 +59,7 @@ docker pull --platform linux/arm64 ghcr.io/cleanstart-containers/jdk:latest
 - **Official Documentation:** https://docs.oracle.com/javase/8/docs/
 - **Provenance / SBOM / Signature:** https://images.cleanstart.com/images/jdk
 - **Docker Hub:** https://hub.docker.com/r/cleanstart/jdk
-- **CleanStart All Images:** https://images.cleanstart.com
+- **CleanStart All Images:** https://images.cleanstart.com/images/jdk/details
 - **CleanStart Community Images:** https://hub.docker.com/u/cleanstart
 
 ### Vulnerability Disclaimer
